@@ -1,5 +1,5 @@
 ﻿id;instrument_id;instrument;brand;model;name;price;image_folder;image;description
-1;violin;Скрипка;Pirastro;Pirastro Aricore violin SET;Аккорд (комплект);13 495 ;;;
+1;violin;Скрипка;Pirastro;Aricore;Pirastro Aricore violin SET;134945;;;
 2;violin;Скрипка;Pirastro;"Pirastro Aricore violin E, шарик";Струна Ми; 833 ;;;
 3;violin;Скрипка;Pirastro;"Pirastro Aricore violin E, петля";Струна Ми; 833 ;;;
 4;violin;Скрипка;Pirastro;Pirastro Aricore violin A;"Струна Ля, алюминий";3 651 ;;;
@@ -59,7 +59,7 @@
 58;violin;Скрипка;Pirastro;"Pirastro Obligato violin D, silver";"Струна Ре, серебро";1 662 ;;;
 59;violin;Скрипка;Pirastro;"Pirastro Obligato violin D, silver";"Струна Ре, серебро";1 716 ;;;
 60;violin;Скрипка;Pirastro;"Pirastro Obligato violin SET, E-ball";"Аккорд (комплект), Струна Ми  шарик";5 441 ;;;
-61;v;Скрипка;Pirastro;"Pirastro Oliv violin SET, E-ball end";"Аккорд (комплект), Струна Ми  шарик";25 143 ;;;
+61;violin;Скрипка;Pirastro;"Pirastro Oliv violin SET, E-ball end";"Аккорд (комплект), Струна Ми  шарик";25 143 ;;;
 62;violin;Скрипка;Pirastro;"Pirastro Oliv violin SET, E-loop end";"Аккорд (комплект), Струна Ми петля";25 143 ;;;
 63;violin;Скрипка;Pirastro;"Pirastro Oliv violin E, ball end, gold steel";"Струна Ми, шарик, позолоченная сталь";2 300 ;;;
 64;violin;Скрипка;Pirastro;"Pirastro Oliv violin E, loop end, gold steel";"Струна Ми, петля, позолоченная сталь";2 300 ;;;
