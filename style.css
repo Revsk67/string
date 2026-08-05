@@ -1053,6 +1053,10 @@ font-size:18px;
 
 transition:.3s;
 
+margin-right:15px;
+
+margin-bottom:10px;
+
 }
 
 
@@ -1080,6 +1084,8 @@ text-decoration:none;
 font-size:18px;
 
 transition:.3s;
+
+margin-bottom:10px;
 
 }
 
@@ -1133,4 +1139,192 @@ color:white;
 
 margin-bottom:15px;
 
+}
+
+/* =========================================
+   АДАПТИВ ПОД ПЛАНШЕТЫ И ТЕЛЕФОНЫ
+   ========================================= */
+
+/* Планшеты и небольшие ноутбуки */
+@media (max-width: 900px) {
+
+    header {
+        padding:0 30px;
+    }
+
+    .hero {
+        padding-left:40px;
+    }
+
+    .hero h1 {
+        font-size:46px;
+    }
+
+    .categories {
+        padding:60px 30px;
+    }
+
+    .category-container {
+        flex-wrap:wrap;
+    }
+}
+
+/* Телефоны и небольшие планшеты (портретная ориентация) */
+@media (max-width: 768px) {
+
+    header {
+        flex-wrap:wrap;
+        height:auto;
+        padding:15px 20px;
+        gap:15px;
+    }
+
+    nav {
+        order:3;
+        width:100%;
+        display:flex;
+        justify-content:center;
+        flex-wrap:wrap;
+    }
+
+    nav a {
+        margin:5px 10px;
+        font-size:15px;
+    }
+
+    .hero {
+        height:auto;
+        min-height:500px;
+        padding:60px 25px;
+        text-align:center;
+        justify-content:center;
+    }
+
+    .hero-content {
+        max-width:100%;
+    }
+
+    .hero h1 {
+        font-size:34px;
+    }
+
+    .hero p {
+        font-size:17px;
+        margin:20px 0;
+    }
+
+    .catalog-btn,
+    .contact-btn {
+        display:block;
+        width:100%;
+        max-width:280px;
+        margin:0 auto 12px;
+        padding:14px 25px;
+        font-size:16px;
+        text-align:center;
+    }
+
+    .categories {
+        padding:50px 20px;
+    }
+
+    .categories h2 {
+        font-size:28px;
+        margin-bottom:30px;
+    }
+
+    .category-container {
+        gap:20px;
+    }
+
+    .category {
+        width:calc(50% - 10px);
+        height:220px;
+    }
+
+    .category h3 {
+        font-size:20px;
+    }
+
+    .brands,
+    .model-list,
+    .products {
+        gap:15px;
+    }
+
+    .brand,
+    .model,
+    .product {
+        width:calc(50% - 8px);
+        padding:20px;
+    }
+
+    .cart-box {
+        width:100%;
+        padding:25px;
+    }
+
+    .footer-content {
+        flex-direction:column;
+        text-align:center;
+        gap:30px;
+    }
+
+    .footer-text {
+        max-width:100%;
+        margin:auto;
+    }
+
+    .about {
+        padding:60px 20px;
+    }
+
+    .about h2 {
+        font-size:28px;
+    }
+
+    .about p {
+        font-size:16px;
+    }
+}
+
+/* Небольшие телефоны */
+@media (max-width: 480px) {
+
+    .logo {
+        font-size:24px;
+    }
+
+    nav a {
+        margin:5px 8px;
+        font-size:14px;
+    }
+
+    .hero h1 {
+        font-size:26px;
+    }
+
+    .hero p {
+        font-size:15px;
+    }
+
+    .categories h2 {
+        font-size:24px;
+    }
+
+    .category {
+        width:100%;
+        height:200px;
+    }
+
+    .brand,
+    .model,
+    .product {
+        width:100%;
+    }
+
+    .order-box {
+        width:90%;
+        padding:25px;
+    }
 }
